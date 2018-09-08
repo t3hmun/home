@@ -1,0 +1,6 @@
+[user]
+	email = git@t3hmun.com
+	name = t3hmun
+[alias]
+	s = status
+	co = checkout

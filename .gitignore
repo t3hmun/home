@@ -7,6 +7,10 @@
 
 # backups and configs that can choose location.
 !config/
+
+
+# Alias until you don't know how to git anymore.
+!.gitconfig
 # This is the first place that conemu checks out of 4 possible places, makes it the winner.
 !run/conemu/ConEmu.xml
 
