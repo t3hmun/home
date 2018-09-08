@@ -1,0 +1,12 @@
+# Everything but itself.
+*
+!.gitignore
+
+# Don't ignore subdirs - needed to unignore deep files.
+!*/
+
+# backups and configs that can choose location.
+!config/
+# This is the first place that conemu checks out of 4 possible places, makes it the winner.
+!run/conemu/ConEmu.xml
+
