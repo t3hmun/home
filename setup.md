@@ -14,4 +14,6 @@ Setup
 * scoop install aria2 curl grep sed less touch 
 * Clone the grand [home repo](https://github.com/t3hmun/home) `https://github.com/t3hmun/home.git`.
 * `PS> scoop bucket add extras`
-* `PS> scoop install conemu`
+* `PS> scoop install conemu pshazz`
+    * Installing pshazz might have initialised the ps profile.
+* `subl $PROFILE`, add `& C:\home\scripts\init-ps.ps1`
